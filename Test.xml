@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class className="bean.WeiboCount" classFileLocation="build\classes\bean\WeiboCount.class"
+	isSpecified="specified">
+	<Fields>
+		<field>
+			<name>page_id</name>
+			<type>java.lang.String</type>
+		</field>
+		<field>
+			<name>word_attr</name>
+			<type>java.lang.String</type>
+		</field>
+		<field>
+			<name>word</name>
+			<type>java.lang.String</type>
+		</field>
+		<field>
+			<name>count</name>
+			<type>java.lang.Integer</type>
+		</field>
+		<field>
+			<name>percentage</name>
+			<type>java.lang.Double</type>
+		</field>
+	</Fields>
+	<specified name="fieldToCount">
+		<fieldToCount>word</fieldToCount>
+	</specified>
+</Class>
